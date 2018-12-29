@@ -116,20 +116,20 @@ CakeLog::config('error', array(
 
 switch (Configure::read('environment')){
 	case 'localhost':
-		Configure::write('acuna.url','http://localhost/acuna/');
+		Configure::write('mym2.url','http://localhost/github/mym2/');
 		//Configure::write('SCRIPT_MIN','');
 		break;
 	case 'production':
-		Configure::write('acuna.url','http://sistema.mym-iceperu.com/');
+		Configure::write('mym2.url','http://sistema.mym-iceperu.com/');
 		//Configure::write('SCRIPT_MIN','.min');
 		break;
 	default:
-		Configure::write('acuna.url','http://localhost/acuna/');
+		Configure::write('mym2.url','http://localhost/github/mym2/');
 		//Configure::write('SCRIPT_MIN','');
 }
 
 //Configure::write('ENV_WEBROOT','');
-Configure::write('ENV_WEBROOT_FULL_URL',Configure::read('acuna.url'));
+Configure::write('ENV_WEBROOT_FULL_URL',Configure::read('mym2.url'));
 
 /*if(Configure::read('environment') == 'staging'){
 	if((isset($_SERVER['SERVER_NAME']) && (strpos($_SERVER['SERVER_NAME'], 'stagingmaster.livingalpha.com') !==  false || strpos($_SERVER['SERVER_NAME'], 'stagingmaster.livingalplha.com') !==  false)) || (isset($_SERVER['HTTP_HOST']) && $_SERVER['HTTP_HOST'] == '23.21.250.206')){

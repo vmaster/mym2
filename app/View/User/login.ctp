@@ -1,11 +1,11 @@
 <div>
-	<h1 class="logo-name">AI</h1>
+	<h1 class="logo-name">MyM</h1>
 </div>
 
-<h3>Bienvenido a Acu&ntilde;a Inmobiliaria</h3>
+<h3>Bienvenido a MYM e Ingenieros</h3>
 
 <p>
-	Bienvenido a la mejor web de inmobiliaria
+	Acceso al sistema
 </p>
 
 <form action="login" id="UsuarioLoginForm" method="post" accept-charset="utf-8">
@@ -26,5 +26,5 @@
 <?php }?>
 
 <p class="m-t">
-	<small>Acu&ntilde;a &copy; 2018</small>
+	<small>MYM 2019</small>
 </p>
